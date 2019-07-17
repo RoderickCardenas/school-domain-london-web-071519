@@ -18,7 +18,10 @@ class School
   end
   
   def sort
-    @roster.sort
+    sorted_hash = { }
+    sorted = @roster.sort
+    sorted.each |k, v|
     binding.pry
+    end
   end
 end
