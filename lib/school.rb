@@ -9,4 +9,7 @@ class School
     @roster = {}
   end
   
+  def add_student(num)
+    @num =+ num
+  end
 end
