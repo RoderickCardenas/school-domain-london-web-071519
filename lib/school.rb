@@ -23,5 +23,4 @@ class School
     sorted.each |k|
     binding.pry
     end
-  end
 end
